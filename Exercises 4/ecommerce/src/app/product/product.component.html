@@ -1,8 +1,11 @@
-<div class="product" [class]="product.onSale ? 'highlight' : ''">
-    <img class="product__image" [src]="product.imageUrl" alt="Image of the toy">
-    <h3>{{product.name}}</h3>
-    <p>{{product.price | currency: 'EUR'}}</p>
-    <button class="product__btn" (click)="increaseQuantity()">+</button>
-    <span>{{product.quantity}}</span>
-    <button class="product__btn" (click)="decreaseQuantity()" [disabled]="!product.canDecrease()">-</button>
+
+<div class="product-item" [class]="product.onSale ? 'highlight' : ''">
+    <img class="product__image" [src]="product.imageUrl" [alt]="product.name">
+    <h2>{{product.name}}</h2>
+    <p>{{product.price | currency: "USD"}}</p>
+    <div>
+        <button class="product-item__btn" (click)="increaseQuantity()">+</button>
+        <span>{{product.quantity}}</span>
+        <button class="product-item__btn" (click)="decreaseQuantity()" [disabled]="!canDecrease()">-</button>
+    </div>
 </div>

@@ -1,27 +1,31 @@
-import { Component } from '@angular/core';
-import { CurrencyPipe } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 import { Product } from '../model/product';
 
 @Component({
   selector: 'app-product',
-  standalone: true,
-  imports: [CurrencyPipe],
   templateUrl: './product.component.html',
-  styleUrl: './product.component.css'
+  styleUrls: ['./product.component.css']
 })
-export class ProductComponent {
-  public product: Product;
+export class ProductComponent implements OnInit{
+  product: Product;
 
-  constructor() {
-    this.product = new Product("Toy", 2, "https://mobileimages.lowes.com/productimages/28dd81a1-fb48-4551-8fd3-484ddf52d3b3/63457645.jpg", true);
+  constructor() {}
+
+  ngOnInit() {
+    this.product = new Product("Test Product", "https://mobileimages.lowes.com/productimages/28dd81a1-fb48-4551-8fd3-484ddf52d3b3/63457645.jpg", 85, false);
   }
 
-  increaseQuantity(): void {
+  increaseQuantity() {
     this.product.quantity++;
   }
 
-  decreaseQuantity(): void {
-    if(!this.product.canDecrease())  return;
-    this.product.quantity--;
+  decreaseQuantity() {
+    if (this.product.quantity > 0) {
+      this.product.quantity--;
+    }
+  }
+
+  canDecrease() {
+    return this.product.quantity > 0;
   }
 }

@@ -1,21 +1,22 @@
-.product {
+
+.product-item {
     border: 1px solid black;
     border-radius: 5px;
-    padding: 10px;
-    margin: 20px;
     display: inline-block;
+    padding: 10px;
     text-align: center;
+    margin: 20px;
+}
+
+.highlight {
+    background-color: lightseagreen;
 }
 
 .product__image {
     max-width: 300px;
 }
 
-.product__btn {
-    margin: 10px;
+.product-item__btn {
     padding: 5px;
-}
-
-.highlight {
-    background-color: aquamarine;
+    margin: 10px;
 }
