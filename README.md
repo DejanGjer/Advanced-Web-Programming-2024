@@ -32,6 +32,21 @@ This exercise consists of two parts:
     <li> TS - Various typescript examples (types, functions, classes, interfaces, modules)</li>
 </ol>
 
+## Exercises 4 - Angular Components
+
+You can find implementation from exercises in the directory `Exercises 4/ecommerce`.
+Setup instructions for installing and running angular can be found in the file `Exercises 4/angular_setup.md`.
+
+In this exercise we implemented a simple stock market application and demonstrated the use of components, data binding (text interpolation and property binding), event binding and pipes.
+
+### Exercises 5 - Angular Directives, Input and Output, Content Projection
+
+You can find implementation from exercises in the directory `Exercises 5/ecommerce`.
+
+In this exercises we modified the application from last exercises (e-commerce website) and demonstrated the use of directives (ngIf, ngFor, ngClass, ngStyle),input and output of components and content (view) projection.
+
+In this exercises there is also homework assigned, which is to implement a simple calculator (directory `Exercises 5/homework1`).
+
 
 ## Contact
 For any questions, please contact me at: <dejan.gjer@dmi.uns.ac.rs>
