@@ -20,7 +20,7 @@ NgFor to create a ProductComponent for each product.
 6. Add content (view) projection to the ProductComponent at pass to it paragraph at the bootom of each product card that tells what position in array of products each product have.
 
 
-### Homework 2
+### Homework 1
 
 Create new angular project which implements calculator with simple operations (+, -, *, /).
 

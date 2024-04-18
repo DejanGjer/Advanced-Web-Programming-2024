@@ -32,16 +32,16 @@ nvm -v
 
 ## Installing node
 
-We will install latest lts version of node
+We will install version 18 of Node.
 
 ```
-nvm install --lts
+nvm install 18
 ```
 
 ### Set which version of node to use
 
 ```
-nvm use --lts
+nvm use 18
 ```
 
 ### Check node version

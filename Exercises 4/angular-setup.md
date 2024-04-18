@@ -11,7 +11,7 @@ In order to setup Angular we will use Angular CLI. Angular CLI is a command line
 Before installing Angular CLI we need to activate the node version that we want to use. In this case we will use the latest LTS version of node.
 
 ``` 
-nvm use --lts
+nvm use 18
 ```
 
 You can check which version of node you are using by running:
@@ -27,8 +27,11 @@ npm -v
 ```
 
 ### Install Angular CLI
+
+We will install and use angular version 15.
+
 ```
-npm install -g @angular/cli
+npm install -g @angular/cli@15
 ```
 
 For checking all available commands run:
