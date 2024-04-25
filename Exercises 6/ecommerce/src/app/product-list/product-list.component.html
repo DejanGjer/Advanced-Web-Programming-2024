@@ -1,0 +1,7 @@
+<div class="row">
+    <div class="col-12 col-md-6 col-lg-4" *ngFor="let product of products; index as i">
+        <app-product [product]="product" (changeQuantity)="onChangeQuantity($event)">
+            <p>This is item nubmer {{i + 1}}</p>
+        </app-product>
+    </div>
+</div>
