@@ -47,6 +47,29 @@ In this exercises we modified the application from last exercises (e-commerce we
 
 In this exercises there is also homework assigned, which is to implement a simple calculator (directory `Exercises 5/homework1`).
 
+## Exercises 6 - Using Bootstrap with Angular, Template Driven Forms
+
+You can find implementation from exercises in the directory `Exercises 6/ecommerce` and `Exercises 6/template-driven-forms-example`.
+Setup instructions for installing bootstrap in angular can be found in the file `Exercises 6/setup_bootstrap.md`.
+
+In this exercises first we continued working on ecommerce website from last exercises and demonstrated the use of bootstrap with angular (using bootstrap components in angular templates). After that we implemented a simple template driven form for adding new products to the website using ngModel directive.
+
+### Exercises 7 - Template Driven Forms (continued), Bootstrap Forms
+
+You can find implementation from exercises in the directory `Exercises 7/ecommerce-registration`.
+
+In this exercises we created more advanced template-driven form for user registration on ecommerce website. We demonstrated use of ngForm, ngModelGroup, ngModel directives for work with forms, groups and controls. Beside that we also used template reference variables and html pattern validation with regex expressions. We also demonstrated use of bootstrap forms and validation classes.
+
+In this exercises there is also homework assigned, which is to implement template driven form for adding new products in ecommerce website (directory `Exercises 7/homework3`).
+
+### Exercises 8 - Reactive Forms
+
+You can find implementation from exercises in the directory `Exercises 8/reactive-forms`.
+
+In this exercises we created reactive form for user login on ecommerce website. We demonstrated use of FormControl, FormGroup, FormArray and FormBuilder classes for work with forms, groups and controls. Beside that we also covered built-in and custom validators and error codes. We used bootsrap for styling of the page.
+
+In this exercises there is also homework assigned, which is to implement template driven form for adding new products in ecommerce website (directory `Exercises 8/homework4`).
+
 
 ## Contact
 For any questions, please contact me at: <dejan.gjer@dmi.uns.ac.rs>
