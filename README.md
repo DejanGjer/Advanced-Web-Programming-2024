@@ -32,7 +32,7 @@ This exercise consists of two parts:
     <li> TS - Various typescript examples (types, functions, classes, interfaces, modules)</li>
 </ol>
 
-## Exercises 4 - Angular Components
+### Exercises 4 - Angular Components
 
 You can find implementation from exercises in the directory `Exercises 4/ecommerce`.
 Setup instructions for installing and running angular can be found in the file `Exercises 4/angular_setup.md`.
@@ -47,7 +47,7 @@ In this exercises we modified the application from last exercises (e-commerce we
 
 In this exercises there is also homework assigned, which is to implement a simple calculator (directory `Exercises 5/homework1`).
 
-## Exercises 6 - Using Bootstrap with Angular, Template Driven Forms
+### Exercises 6 - Using Bootstrap with Angular, Template Driven Forms
 
 You can find implementation from exercises in the directory `Exercises 6/ecommerce` and `Exercises 6/template-driven-forms-example`.
 Setup instructions for installing bootstrap in angular can be found in the file `Exercises 6/setup_bootstrap.md`.
@@ -70,6 +70,19 @@ In this exercises we created reactive form for user login on ecommerce website. 
 
 In this exercises there is also homework assigned, which is to implement template driven form for adding new products in ecommerce website (directory `Exercises 8/homework4`).
 
+### Exercises 9 - Services and Observables
+
+You can find implementation from exercises in the directories `Exercises 9/ecommerce-services` and `Exercises 9/ecommerce-observables`.
+This exercises had starter code (base code for application that we created in class) in `Exercises 9/ecommerce-starter` directory.
+
+In this exercises we created services for work with products and users on ecommerce website. We demonstrated use of services for separation of concerns and use of observables for asynchronous operations.
+
+### Exercises 10 - Http Requests and Routing
+
+You can find implementation from exercises in the directories `Exercises 10/ecommerce-http` and `Exercises 10/ecommerce-routing`.
+This exercises as a base code use code from last exercises (`Exercises 9/ecommerce-observables` project).
+
+In this exercises we we continued to build ecommerce application from last exercies. This time we added routing and demonstrated use of http requests for communication with backend.
 
 ## Contact
 For any questions, please contact me at: <dejan.gjer@dmi.uns.ac.rs>
